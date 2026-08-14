@@ -1,0 +1,17 @@
+﻿  PageCache.cpp
+E:\VS测试\Project1\Project1\Construct ConcurrentMemoryPool\Construct ConcurrentMemoryPool\Common.h(187,24): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+  (编译源文件“PageCache.cpp”)
+  
+E:\VS测试\Project1\Project1\Construct ConcurrentMemoryPool\Construct ConcurrentMemoryPool\Common.h(226,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“PageCache.cpp”)
+  
+  UnitTest.cpp
+E:\VS测试\Project1\Project1\Construct ConcurrentMemoryPool\Construct ConcurrentMemoryPool\Common.h(187,24): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+  (编译源文件“UnitTest.cpp”)
+  
+E:\VS测试\Project1\Project1\Construct ConcurrentMemoryPool\Construct ConcurrentMemoryPool\Common.h(226,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“UnitTest.cpp”)
+  
+  正在生成代码...
+ThreadCache.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl ThreadCache::ListTooLong(class FreeList &,unsigned __int64)" (?ListTooLong@ThreadCache@@QEAAXAEAVFreeList@@_K@Z)，函数 "public: void __cdecl ThreadCache::Deallocate(void *,unsigned __int64)" (?Deallocate@ThreadCache@@QEAAXPEAX_K@Z) 中引用了该符号
+E:\VS测试\Project1\Project1\Construct ConcurrentMemoryPool\x64\Debug\Construct ConcurrentMemoryPool.exe : fatal error LNK1120: 1 个无法解析的外部命令
